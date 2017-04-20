@@ -1,0 +1,6 @@
+package:
+    type:           yii2-extension
+    name:           yii2-yandex-metrika
+    title:          Yandex.Metrika counter for Yii2 applications
+    headline:       Yii2 Yandex.Metrika
+    keywords:       yii2, yandex, metrika

@@ -1,0 +1,57 @@
+{
+    "name": "hiqdev/yii2-yandex-metrika",
+    "type": "yii2-extension",
+    "description": "Yandex.Metrika counter for Yii2 applications",
+    "keywords": [
+        "yii2",
+        "yandex",
+        "metrika"
+    ],
+    "homepage": "https://github.com/hiqdev/yii2-yandex-metrika",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/yii2-yandex-metrika",
+        "issues": "https://github.com/hiqdev/yii2-yandex-metrika/issues",
+        "wiki": "https://github.com/hiqdev/yii2-yandex-metrika/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "andreyklochok@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0",
+        "hiqdev/hidev-hiqdev": "<2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hiqdev\\yii2\\YandexMetrika\\": "src"
+        }
+    }
+}
