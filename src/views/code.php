@@ -2,7 +2,6 @@
 
 /** @var int $id */
 /** @var string $params */
-
 ?>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
