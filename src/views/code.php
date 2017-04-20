@@ -1,14 +1,16 @@
 <?php
 
+use yii\helpers\Json;
+
 /** @var int $id */
-/** @var string $params */
+/** @var array $params */
 ?>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter<?= $id ?> = new Ya.Metrika(<?= $jsonParams ?>);
+                w.yaCounter<?= $id ?> = new Ya.Metrika(<?= Json::encode($params) ?>);
             } catch(e) { }
         });
 

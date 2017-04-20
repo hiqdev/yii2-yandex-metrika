@@ -11,7 +11,6 @@
 namespace hiqdev\yii2\YandexMetrika;
 
 use Yii;
-use yii\helpers\Json;
 
 class CodeBuilder extends \yii\base\Object
 {
@@ -33,14 +32,14 @@ class CodeBuilder extends \yii\base\Object
     {
         return [
             'id' => $this->id,
-            'jsonParams' => Json::encode($this->prepareParams()),
+            'params' => $this->prepareParams(),
         ];
     }
 
     public function prepareParams()
     {
-        return array_merge($this->params, [
+        return array_filter(array_merge($this->params, [
             'id' => $this->id,
-        ]);
+        ]));
     }
 }
