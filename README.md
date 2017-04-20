@@ -9,6 +9,15 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/yii2-yandex-metrika.svg)](https://scrutinizer-ci.com/g/hiqdev/yii2-yandex-metrika/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:yii2-yandex-metrika/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:yii2-yandex-metrika/dev-master)
 
+Provides really easy adding [Yandex.Metrika] counter to site.
+Even easier then adding a widget into site layout.
+
+Works by adding Behavior to the Application View.
+Behavior listens to [EVENT_END_BODY] and echos the counter script.
+
+[Yandex.Metrika]: https://metrika.yandex.ru
+[EVENT_END_BODY]: http://www.yiiframework.com/doc-2.0/yii-web-view.html#EVENT_END_BODY-detail
+
 ## Installation
 
 The preferred way to install this yii2-extension is through [composer](http://getcomposer.org/download/).
@@ -26,6 +35,23 @@ or add
 ```
 
 to the require section of your composer.json.
+
+## Configuration
+
+This extension is supposed to be used with [composer-config-plugin].
+
+Else look [src/config/hisite.php] for cofiguration example.
+
+Available configuration parameters:
+
+- `yandexMetrika.id`
+- `yandexMetrika.params`
+
+For more details please see [src/config/params.php].
+
+[composer-config-plugin]:   https://github.com/hiqdev/composer-config-plugin
+[src/config/hisite.php]:    src/config/hisite.php
+[src/config/params.php]:    src/config/params.php
 
 ## License
 
