@@ -10,6 +10,9 @@
 
 namespace hiqdev\yii2\YandexMetrika;
 
+use Yii;
+use yii\helpers\Json;
+
 class CodeBuilder extends \yii\base\Object
 {
     public $id;
@@ -23,7 +26,15 @@ class CodeBuilder extends \yii\base\Object
 
     public function render()
     {
-        return $this->getView()->render('@hiqdev\yii2\YandexMetrika\views\code', $this->prepareParams());
+        return $this->getView()->render('@hiqdev/yii2/YandexMetrika/views/code.php', $this->prepareData());
+    }
+
+    public function prepareData()
+    {
+        return [
+            'id' => $this->id,
+            'jsonParams' => Json::encode($this->prepareParams()),
+        ];
     }
 
     public function prepareParams()

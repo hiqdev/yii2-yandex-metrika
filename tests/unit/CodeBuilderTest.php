@@ -11,6 +11,7 @@
 namespace hiqdev\yii2\YandexMetrika\tests;
 
 use hiqdev\yii2\YandexMetrika\CodeBuilder;
+use Yii;
 
 class CodeBuilderTest extends \PHPUnit\Framework\TestCase
 {
@@ -20,9 +21,9 @@ class CodeBuilderTest extends \PHPUnit\Framework\TestCase
 
     protected $params = [
         'cilckmap'              => true,
+        'webvisor'              => true,
         'trackLinks'            => true,
         'accurateTrackBounce'   => true,
-        'webvisor'              => true,
     ];
 
     protected function setUp()
@@ -36,7 +37,7 @@ class CodeBuilderTest extends \PHPUnit\Framework\TestCase
 
     public function testRender()
     {
-        $sample = file_get_contents(__DIR__ . '/sample.html');
+        $sample = file_get_contents(__DIR__ . '/code.html');
         $this->assertSame(trim($sample), trim($this->builder->render()));
     }
 }
