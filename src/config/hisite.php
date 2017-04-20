@@ -8,19 +8,21 @@
  * @copyright Copyright (c) 2017, HiQDev (http://hiqdev.com/)
  */
 
-if (empty($params['yandex.metrika.id'])) {
+if (empty($params['yandexMetrika.id'])) {
     return [];
 }
 
 return [
-    'bootstrap' => [
-        'yandexMetrika' => 'yandexMetrika',
-    ],
     'components' => [
-        'yandexMetrika' => [
-            'class' => \hiqdev\yii2\YandexMetrika\Component::class,
-            'id' => $params['yandexMetrika.id'],
-            'params' => $params['yandexMetrika.params'],
+        'view' => [
+            'as YandexMetrika' => [
+                'class' => \hiqdev\yii2\YandexMetrika\Behavior::class,
+                'builder' => [
+                    'class' => \hiqdev\yii2\YandexMetrika\CodeBuilder::class,
+                    'id' => $params['yandexMetrika.id'],
+                    'params' => $params['yandexMetrika.params'],
+                ],
+            ],
         ],
     ],
 ];

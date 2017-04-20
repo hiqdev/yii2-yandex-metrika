@@ -10,16 +10,21 @@
 
 namespace hiqdev\yii2\YandexMetrika;
 
-use yii\base\Application;
-use yii\base\BootstrapInterface;
+use yii\web\View;
 
-class Component extends \yii\base\Component implements BootstrapInterface
+class Behavior extends \yii\base\Behavior
 {
-    public $id;
+    public $builder;
 
-    public $params = [];
-
-    public function bootstrap(Application $app)
+    public function events()
     {
+        return [
+            View::EVENT_END_BODY => 'onEndBody',
+        ];
+    }
+
+    public function onEndBody($event)
+    {
+        die('here');
     }
 }
