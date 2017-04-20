@@ -10,6 +10,7 @@
 
 namespace hiqdev\yii2\YandexMetrika;
 
+use Yii;
 use yii\web\View;
 
 class Behavior extends \yii\base\Behavior
@@ -25,6 +26,15 @@ class Behavior extends \yii\base\Behavior
 
     public function onEndBody($event)
     {
-        die('here');
+        echo $this->getBuilder()->render();
+    }
+
+    public function getBuilder()
+    {
+        if (!is_object($this->builder)) {
+            $this->builder = Yii::createObject($this->builder);
+        }
+
+        return $this->builder;
     }
 }
