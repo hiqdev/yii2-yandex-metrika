@@ -1,5 +1,11 @@
 # hiqdev/yii2-yandex-metrika
 
+## [0.1.1] - 2017-04-20
+
+- Fixed Behavior to work
+    - [e7aa4cb] 2017-04-20 finished Behavior - works! hooray! [@hiqsol]
+    - [5d4c9ac] 2017-04-20 minor refactoring [@hiqsol]
+
 ## [0.1.0] - 2017-04-20
 
 - Added basics: CodeBuilder and Behavior
@@ -28,5 +34,8 @@
 [db45021]: https://github.com/hiqdev/yii2-yandex-metrika/commit/db45021
 [2cef37a]: https://github.com/hiqdev/yii2-yandex-metrika/commit/2cef37a
 [f1f28ab]: https://github.com/hiqdev/yii2-yandex-metrika/commit/f1f28ab
-[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/releases
+[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.0...HEAD
 [0.1.0]: https://github.com/hiqdev/yii2-yandex-metrika/releases/tag/0.1.0
+[e7aa4cb]: https://github.com/hiqdev/yii2-yandex-metrika/commit/e7aa4cb
+[5d4c9ac]: https://github.com/hiqdev/yii2-yandex-metrika/commit/5d4c9ac
+[0.1.1]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.0...0.1.1
