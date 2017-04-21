@@ -3,10 +3,10 @@ package:
     name:           yii2-yandex-metrika
     title:          Yandex.Metrika counter for Yii2 applications
     headline:       Yii2 Yandex.Metrika
-    keywords:       yii2, yandex, metrika
+    keywords:       yii2, plugin, yandex, metrika, counter
     description:    |
-        Provides really easy adding [Yandex.Metrika] counter to site.
-        Even easier then adding a widget into site layout.
+        Provides really easy adding [Yandex.Metrika] counter to a site.
+        Even easier then adding a widget into a site layout.
 
         Works by adding Behavior to the Application View.
         Behavior listens to [EVENT_END_BODY] and echos the counter script.

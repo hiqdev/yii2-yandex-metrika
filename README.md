@@ -9,8 +9,8 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/yii2-yandex-metrika.svg)](https://scrutinizer-ci.com/g/hiqdev/yii2-yandex-metrika/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:yii2-yandex-metrika/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:yii2-yandex-metrika/dev-master)
 
-Provides really easy adding [Yandex.Metrika] counter to site.
-Even easier then adding a widget into site layout.
+Provides really easy adding [Yandex.Metrika] counter to a site.
+Even easier then adding a widget into a site layout.
 
 Works by adding Behavior to the Application View.
 Behavior listens to [EVENT_END_BODY] and echos the counter script.
