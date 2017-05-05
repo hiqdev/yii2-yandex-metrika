@@ -1,6 +1,6 @@
 <?php
 /**
- * Yandex.Metrika counter for Yii2 applications
+ * Yandex.Metrika counter for Yii2 applications.
  *
  * @link      https://github.com/hiqdev/yii2-yandex-metrika
  * @package   yii2-yandex-metrika
