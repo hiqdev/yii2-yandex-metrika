@@ -1,5 +1,15 @@
 # hiqdev/yii2-yandex-metrika
 
+## [0.2.0] - 2017-05-05
+
+- Renamed config `web` <- hisite
+    - [45f5c38] 2017-05-05 csfixed [@hiqsol]
+    - [e4ef565] 2017-05-05 renamed `web` config <- hisite [@hiqsol]
+    - [8075937] 2017-05-05 csfixed [@hiqsol]
+    - [7939150] 2017-05-05 renamed `hidev.yml` <- .hidev/config.yml [@hiqsol]
+    - [9ef66fd] 2017-05-05 fixed tests bootstrap [@hiqsol]
+    - [6ce0fdf] 2017-04-20 docs [@hiqsol]
+
 ## [0.1.1] - 2017-04-20
 
 - Fixed Behavior to work
@@ -34,8 +44,15 @@
 [db45021]: https://github.com/hiqdev/yii2-yandex-metrika/commit/db45021
 [2cef37a]: https://github.com/hiqdev/yii2-yandex-metrika/commit/2cef37a
 [f1f28ab]: https://github.com/hiqdev/yii2-yandex-metrika/commit/f1f28ab
-[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.0...HEAD
+[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.1...HEAD
 [0.1.0]: https://github.com/hiqdev/yii2-yandex-metrika/releases/tag/0.1.0
 [e7aa4cb]: https://github.com/hiqdev/yii2-yandex-metrika/commit/e7aa4cb
 [5d4c9ac]: https://github.com/hiqdev/yii2-yandex-metrika/commit/5d4c9ac
 [0.1.1]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.0...0.1.1
+[45f5c38]: https://github.com/hiqdev/yii2-yandex-metrika/commit/45f5c38
+[e4ef565]: https://github.com/hiqdev/yii2-yandex-metrika/commit/e4ef565
+[8075937]: https://github.com/hiqdev/yii2-yandex-metrika/commit/8075937
+[7939150]: https://github.com/hiqdev/yii2-yandex-metrika/commit/7939150
+[9ef66fd]: https://github.com/hiqdev/yii2-yandex-metrika/commit/9ef66fd
+[6ce0fdf]: https://github.com/hiqdev/yii2-yandex-metrika/commit/6ce0fdf
+[0.2.0]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.1...0.2.0
