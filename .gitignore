@@ -1,9 +1,12 @@
 # hidev internals
-.hidev/composer.json
-.hidev/composer.lock
-.hidev/runtime
-.hidev/vendor
-hidev-local.yml
+/.hidev/composer.json
+/.hidev/composer.lock
+/.hidev/runtime
+/.hidev/vendor
+
+# local config
+/.env
+/hidev-local.yml
 
 # IDE & OS files
 .*.swp
@@ -15,11 +18,9 @@ hidev-local.yml
 Thumbs.db
 nbproject
 
-# vendor dirs
-vendor
-
-# composer lock files
-composer.lock
+# composer internals
+/composer.lock
+/vendor
 
 # php-cs-fixer cache
 .php_cs.cache
