@@ -1,5 +1,9 @@
 # hiqdev/yii2-yandex-metrika
 
+## [0.3.0] - 2019-03-04
+
+- Use new Yandex Metrika code ([@SilverFire], [almaximal@ya.ru], [@hiqsol])
+
 ## [0.2.0] - 2017-05-05
 
 - Renamed config `web` <- hisite ([@hiqsol])
@@ -22,7 +26,8 @@
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.1...HEAD
+[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.2.0...HEAD
 [0.1.0]: https://github.com/hiqdev/yii2-yandex-metrika/releases/tag/0.1.0
 [0.1.1]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.0...0.1.1
 [0.2.0]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.1...0.2.0
+[0.3.0]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.2.0...0.3.0

@@ -1,5 +1,14 @@
 # hiqdev/yii2-yandex-metrika
 
+## [0.3.0] - 2019-03-04
+
+- Use new Yandex Metrika code
+    - [9531c22] 2019-03-04 hideved [@SilverFire]
+    - [f82a44c] 2019-03-04 New Metrika code (fixes #1) [almaximal@ya.ru]
+    - [c82e0c1] 2018-12-01 Fixed `yii\base\BaseObject` [@hiqsol]
+    - [1b4eab4] 2017-07-30 csfixed [@hiqsol]
+    - [c029812] 2017-07-30 docs [@hiqsol]
+
 ## [0.2.0] - 2017-05-05
 
 - Renamed config `web` <- hisite
@@ -44,7 +53,7 @@
 [db45021]: https://github.com/hiqdev/yii2-yandex-metrika/commit/db45021
 [2cef37a]: https://github.com/hiqdev/yii2-yandex-metrika/commit/2cef37a
 [f1f28ab]: https://github.com/hiqdev/yii2-yandex-metrika/commit/f1f28ab
-[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.1...HEAD
+[Under development]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.2.0...HEAD
 [0.1.0]: https://github.com/hiqdev/yii2-yandex-metrika/releases/tag/0.1.0
 [e7aa4cb]: https://github.com/hiqdev/yii2-yandex-metrika/commit/e7aa4cb
 [5d4c9ac]: https://github.com/hiqdev/yii2-yandex-metrika/commit/5d4c9ac
@@ -56,3 +65,9 @@
 [9ef66fd]: https://github.com/hiqdev/yii2-yandex-metrika/commit/9ef66fd
 [6ce0fdf]: https://github.com/hiqdev/yii2-yandex-metrika/commit/6ce0fdf
 [0.2.0]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.1.1...0.2.0
+[9531c22]: https://github.com/hiqdev/yii2-yandex-metrika/commit/9531c22
+[f82a44c]: https://github.com/hiqdev/yii2-yandex-metrika/commit/f82a44c
+[c82e0c1]: https://github.com/hiqdev/yii2-yandex-metrika/commit/c82e0c1
+[1b4eab4]: https://github.com/hiqdev/yii2-yandex-metrika/commit/1b4eab4
+[c029812]: https://github.com/hiqdev/yii2-yandex-metrika/commit/c029812
+[0.3.0]: https://github.com/hiqdev/yii2-yandex-metrika/compare/0.2.0...0.3.0
